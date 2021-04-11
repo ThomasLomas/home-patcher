@@ -1,0 +1,6 @@
+
+hosts:
+  - name: mypi
+    hostname: hostname.local:22
+    username: pi
+    password: changeme

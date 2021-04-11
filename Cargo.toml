@@ -1,0 +1,17 @@
+[package]
+name = "home-patcher"
+version = "0.1.0"
+authors = ["Thomas Lomas"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thrussh = "0.32.8"
+thrussh-keys = "0.20.3"
+clap = "2.33.3"
+yaml-rust = "0.4"
+linked-hash-map = "0.5.4"
+tokio = "1.4.0"
+futures = "0.3.14"
+anyhow = "1.0.40"
